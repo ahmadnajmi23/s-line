@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  font-family: "Bebas Neue", sans-serif;
+  }
+  
+  body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d9a6a6;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 20px;
+    max-width: 500px;
+    margin: 20px;
+  }
+  
+  .container .tenor-gif-embed {
+    max-width: 200px;
+margin-top: -80px;
+  }
+  
+  .container .btn {
+    display: flex;
+    gap: 25px;
+  }
+  
+  .btn a {
+    text-decoration: none;
+    color: #111;
+    background: #fff;
+    padding: 10px 25px;
+    border-radius: 66px;
+    box-shadow: 0.5rem 1rem 3rem hsl(0, 0%, 0%, 0.3);
+    animation-name: sdt;
+    animation-duration: 0.8s; 
+    animation-iteration-count: infinite;
+    animation-direction:alternate;
+  }
+  @keyframes sdt {
+    0%{
+      transform: scale(1.1);
+    }
+    100%{
+      transform: scale(1.2);
+    }
+  }
+  .image-com{
+    width: 100vw;
+  display: flex;
+  /* background-color: #483d3d; */
+  height: 30vh;
+  align-items: center;
+  justify-content: center;
+gap: 20px;
+}
+
+.img{
+  margin-top: -100px;
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.img-1{
+  background: url(./I\ Love\ You\ Chick\ GIF.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.img-2{
+  background: url(./Happy\ Love\ Of\ My\ Life\ GIF\ by\ Tonton\ Friends.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.img-3{
+  background: url(./Kisses\ Love\ GIF\ by\ molehill.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.img-4{
+  background: url(./I\ Love\ You\ GIF.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.img-5{
+  background: url(./Valentines\ Day\ Love\ GIF\ by\ Digital\ Pratik.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.img-6{
+  background: url(./Happy\ I\ Love\ You\ GIF\ by\ pikaole.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.img-7{
+  background: url(./I\ Love\ You\ Bunny\ GIF.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.img-8{
+  background: url(./Bed\ Love\ GIF\ by\ MOODMAN.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+   /* .ew{
+    scale: 0.5;
+ display: block;
+  } */
+  /* .uioo{
+    
+    margin-left: 400px;  
+  }
+  .uioe{
+    margin-right: 600px;  
+
+  } */

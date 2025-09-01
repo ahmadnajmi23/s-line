@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+canvas {
+
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+p {
+	margin: 0 0;
+	position: absolute;
+	font: 16px;
+	font-family: "Bebas Neue", sans-serif;
+	color: #eee;
+	height: 25px;
+	top: calc( 100vh - 30px );
+	text-shadow: 0 0 2px white;
+}
+p a {
+	text-decoration: none;
+	color: #aaa;
+    font-family: "Bebas Neue", sans-serif;
+}
+span {
+	  font-family: "Bebas Neue", sans-serif;
+	font-size: 11px;
+}
+p > a:first-of-type {
+	  font-family: "Bebas Neue", sans-serif;
+	font-size: 20px;
+}
+body {
+	overflow: hidden;
+}
+.kl{
+	width: 100vw;
+	display: flex;
+
+	justify-content: center;
+}
+.kl a{
+display: flex;
+
+	justify-content: center;
+
+}
+
+.wecd{
+	padding: 2px 3px;
+		margin: 0 0;
+	position: absolute;
+  font-family: "Bebas Neue", sans-serif;
+letter-spacing: 1px;
+padding: 20px 30px;
+background-color:violet;
+	/* font: 16px Verdana; */
+	color: #000000;
+	/* height: 25px; */
+	top: calc( 70vh - 30px );
+	/* text-shadow: 0 0 2px white; */
+border: none;
+border-radius: 30px;
+font-size: 18px;
+font-weight: 1000;
+text-transform: uppercase;
+cursor: pointer;  
+    animation-name: sdt;
+    animation-duration: 0.8s; 
+    animation-iteration-count: infinite;
+    animation-direction:alternate;
+}
+  @keyframes sdt {
+    0%{
+      transform: scale(1);
+    }
+    100%{
+      transform: scale(1.1);
+    }
+  }
